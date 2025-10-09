@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -76,7 +77,28 @@
             align-items: center;
             gap: 8px;
         }
-        
+
+        .download-pdf {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            margin-top: 20px;
+            padding: 12px 24px;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 500;
+            transition: background 0.3s ease;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .download-pdf:hover {
+            background: rgba(255, 255, 255, 0.3);
+            border-color: rgba(255, 255, 255, 0.5);
+        }
+
         .content {
             padding: 50px;
         }
@@ -306,6 +328,9 @@
                     <div class="contact-item">💬 +7 921 799 5698</div>
                     <div class="contact-item">📍 Tbilisi, Georgia</div>
                 </div>
+                <a href="cv_pashkin.pdf" download class="download-pdf">
+                    📄 Download CV as PDF
+                </a>
             </div>
         </div>
         
